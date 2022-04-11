@@ -1,0 +1,208 @@
+@media all and (min-width:1024px) {
+
+    body {
+        overflow-x:hidden;
+    }
+
+    .first {
+        height:100vh;
+        width:100vw;
+        background: var(--primary);
+    }
+    
+    .second {
+        height:100vh;
+        width:100vw;
+        background:var(--black);
+    }
+    
+    .third {
+        height:100vh;
+        width:100vw;
+        background: var(--secondary);
+    }
+    
+    .container {
+        max-height: 70vh;
+    }
+
+    .card {
+        width:35%;
+        height:80%;
+        margin:0 auto;
+        position: relative;
+        top:8%;
+    }
+
+    .card-container {
+        padding:40px;
+    }
+
+    h1 {
+        font-size:30px;
+        margin-bottom:50px;
+    }
+    
+    .first .card .card-container img {
+        width:30px;
+    }
+
+    .first .card .card-container h2 {
+        font-size:45px;
+        font-family: var(--grifter);
+        color:var(--primary);
+        line-height: 35px;
+        margin-bottom:5px;
+    } 
+
+    .first .demo-container {
+        gap:10px;
+    }
+
+    .first .demo-container .left-demo-container h4 {
+        font-size:20px;
+        margin-bottom:10px;
+    }
+
+    .first .demo-container .right-demo-container h4 {
+        font-size:18px;
+        margin-bottom:10px;
+    }
+
+    .first .demo-container .left-demo-container p {
+        font-size:15px;
+    }
+
+    .first .demo-container .right-demo-container p {
+        font-size:15px;
+    }
+
+    .first .demo-container .left-demo-container a {
+        font-size:15px;
+    }
+
+    .first .demo-container .right-demo-container a {
+        font-size:15px;
+    }
+
+    .first .card .card-container h2 {
+        font-size:45px;
+        font-family: var(--grifter);
+        color:var(--primary);
+        line-height: 35px;
+        margin-bottom:30%;
+    } 
+
+    /* Second Section */
+    .badge {
+        top:640px;  
+        width:270px;
+        right:410px;
+    }
+
+    .second h1 {
+        font-size: 30px;
+        margin-bottom:50px;
+    }
+
+    .second .card .card-container img {
+        width:30px;
+    }
+
+    .second .card .card-container h2 {
+        font-size:45px;
+        font-family: var(--grifter);
+        color:var(--black);
+        line-height: 35px;
+        margin-bottom:30%;
+    } 
+
+    .second .demo-container {
+        gap:10px;
+    }
+
+    .second .demo-container .left-demo-container h4 {
+        font-size:20px;
+        margin-bottom:10px;
+    }
+
+    .second .demo-container .right-demo-container h4 {
+        font-size:18px;
+        margin-bottom:10px;
+    }
+
+    .second .demo-container .left-demo-container p {
+        font-size:15px;
+    }
+
+    .second .demo-container .right-demo-container p {
+        font-size:15px;
+    }
+
+    .second .demo-container .left-demo-container a {
+        font-size:15px;
+    }
+
+    .second .demo-container .right-demo-container a {
+        font-size:15px;
+    }
+
+    /* Third Section */
+
+    .third {
+        height:135vh;
+    }
+
+    .third .card {
+        height:110vh;
+        position: relative;
+        top:100px;
+    }
+
+    .guy {
+        width:478px;
+    }
+    
+    .third .card .card-container img {
+        width:30px;
+        margin-top:210px;  
+    }
+
+    .third .card .card-container h2 {
+        font-size:45px;
+        line-height:40px;
+        margin-bottom:17%;
+    }
+
+    .third .demo-container .left-demo-container h4 {
+        font-size: 25px;
+    }
+
+    .third .demo-container .left-demo-container a {
+        font-size: 15px;
+    }
+    .third .demo-container .left-demo-container p {
+
+        font-size: 15px;
+    }
+
+    .third .demo-container .left-demo-container .try {
+        margin-top:-110%;
+    } 
+
+    .third .demo-container .right-demo-container a {
+        font-size: 15px;
+    }
+
+    .third .demo-container .right-demo-container p {
+        font-size: 15px;
+    }
+
+    .third .demo-container .right-demo-container h4 {
+        font-size: 25px;
+    }
+
+    .third .demo-container .right-demo-container .try {
+        margin-top:-100%;
+    } 
+}

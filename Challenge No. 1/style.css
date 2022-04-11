@@ -1,0 +1,304 @@
+@font-face {
+    font-family: Grifter;
+    src: url(assets/grifterbold.otf);
+}
+
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('assets/EudoxusSans-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #E0D6CC;
+    --secondary: #F08261;
+    --black: #000000;
+
+    --grifter: 'Grifter';     
+    --eudo: 'Eudoxus Sans';
+
+}
+
+.first {
+    height:100vh;
+    width:100vw;
+    background: var(--primary);
+}
+
+.second {
+    height:100vh;
+    width:100vw;
+    background:var(--black);
+}
+
+.third {
+    height:100vh;
+    width:100vw;
+    background: var(--secondary);
+}
+
+.container {
+    max-height: 80vh;
+}
+
+.card {
+    width:85%;
+    height:65%;
+    margin:0 auto;
+    position: relative;
+    top:15%;
+}
+
+.card-container {
+    padding:18px;
+}
+
+.first .card {
+    background: var(--black);
+}
+
+.second .card {
+    background: var(--primary);
+}
+
+.third .card {
+    background: var(--black);
+}
+
+h1 {
+    font-family:var(--grifter);
+    font-size:20px;
+    color:var(--primary);
+    margin-bottom:30px;
+}
+
+.first .card .card-container h2 {
+    font-size:25px;
+    font-family: var(--grifter);
+    color:var(--primary);
+    line-height: 23px;
+    margin-bottom:35%;
+} 
+
+.first .card .card-container img {
+    width:20px;
+    height: auto;
+}
+
+.demo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.first .card .card-container h4 {
+    font-size:15px;
+    font-family: var(--grifter);
+    color:var(--primary);
+}
+
+.first .card .card-container p {
+    font-family: var(--eudo);
+    font-size:10px;
+    color:var(--primary);
+}
+
+.left-demo-container h4 {
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.left-demo-container .try {
+    margin-top:10px;
+}
+
+.left-demo-container .try a {
+    text-decoration: none;
+    font-family: var(--grifter);
+    font-size:10px;
+    color:var(--primary);
+}
+
+.left-demo-container .try img {
+    width:5px;
+    position: relative;
+    top:5px;
+}
+
+.right-demo-container {
+    margin-top:12px;
+}
+
+.right-demo-container .try {
+    margin-top: 11px;
+}
+
+.right-demo-container .try a {
+    text-decoration: none;
+    font-family: var(--grifter);
+    font-size:10px;
+    color:var(--primary);
+}
+
+.right-demo-container .try img {
+    width: 5px;
+    position: relative;
+    top: 5px;
+}
+
+/* Second Section */
+
+.badge {
+    width:200px;
+    position: absolute;
+    top:100%;
+    right:0;
+    z-index: 99;
+}
+
+.second h1 {
+    font-family:var(--grifter);
+    font-size:20px;
+    color:var(--black);
+    margin-bottom:30px;
+}
+
+.second .card .card-container img {
+    width:20px;
+    height: auto;
+}
+
+.second .card .card-container h2 {
+    font-size:25px;
+    font-family: var(--grifter);
+    color:var(--black);
+    line-height: 23px;
+    margin-bottom:35%;
+} 
+
+.second .demo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.second .card .card-container h4 {
+    font-size:15px;
+    font-family: var(--grifter);
+    color:var(--black);
+}
+
+.second .card .card-container p {
+    font-family: var(--eudo);
+    font-size:10px;
+    color:var(--black);
+}
+
+.second .left-demo-container h4 {
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.second .left-demo-container .try {
+    margin-top:10px;
+}
+
+.second .left-demo-container .try a {
+    text-decoration: none;
+    font-family: var(--grifter);
+    font-size:10px;
+    color:var(--black);
+}
+
+.second .left-demo-container .try img {
+    width:20px;
+    position: relative;
+    top:5px;
+}
+
+.second .right-demo-container {
+    margin-top:12px;
+}
+
+.second .right-demo-container .try {
+    margin-top: 11px;
+}
+
+.second .right-demo-container .try a {
+    text-decoration: none;
+    font-family: var(--grifter);
+    font-size:10px;
+    color:var(--black);
+}
+
+.second .right-demo-container .try img {
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+/* Third Section */
+.guy {
+    position:absolute;
+    z-index: -1;
+    width:271px;
+}
+
+.third .card {
+    height: 78vh;
+}
+
+.third .card .card-container img {
+    width:20px;
+    height: auto;
+    margin-top:130px;
+}
+
+.third .card .card-container h2 {
+    font-size:25px;
+    font-family: var(--grifter);
+    color:var(--primary);
+    line-height: 23px;
+    margin-bottom:18px;
+}
+
+.third .demo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    color:var(--primary);
+}
+
+.third .left-demo-container h4 {
+    font-size:15px;
+    font-family:var(--grifter);
+}
+
+.third .left-demo-container p{
+    font-size:10px;
+    font-family:var(--eudo);
+}
+
+.third .right-demo-container h4 {
+    font-family: var(--grifter);
+}
+
+.third .right-demo-container p{
+    font-size:10px;
+    font-family:var(--eudo);
+}
+
+.third .left-demo-container .try {
+    margin-top:-120px;
+}
+
+.third .right-demo-container .try {
+    margin-top:-110px;
+}

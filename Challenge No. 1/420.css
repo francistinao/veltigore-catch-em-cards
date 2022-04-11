@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Grifter;
+    src: url(assets/grifterbold.otf);
+}
+
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('assets/EudoxusSans-Regular.ttf');
+}
+
+
+.first {
+    height:100vh;
+    width:100vw;
+    background: var(--primary);
+}
+
+.second {
+    height:100vh;
+    width:100vw;
+    background:var(--black);
+}
+
+.third {
+    height:100vh;
+    width:100vw;
+    background: var(--secondary);
+}
+
+.container {
+    max-height: 80vh;
+}
+
+@media all and (min-width:420px){
+
+    /* First Section */
+    .card {
+        width:70vw;
+    }
+
+    .first .card .card-container h2 {
+        font-size:30px;
+        margin-bottom:13%;
+    }
+
+    .first .card .card-containr img {
+        width:25px;
+        height: auto;
+    }
+
+    .first .card .card-container h4 {
+        font-size:18px;
+    }
+
+    /* Second Section */
+    
+    .badge {
+        right:40px;
+    }
+
+    .second .card .card-container h2 {
+        font-size: 30px;
+        margin-bottom:15%;
+    }
+
+    .second .card .card-container h4 {
+        font-size:18px;
+    }
+
+    /* Third Section */
+
+    .third .card {
+        height:80vh;
+    }
+    .guy {
+        width:295px;
+    }
+
+    .third .card .card-container img {
+        margin-top:140px;
+    }
+
+    .third .card .card-container h2 {
+        font-size:30px;
+        margin-bottom:10%;
+    }
+
+}

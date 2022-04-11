@@ -1,0 +1,57 @@
+@media all and (min-width: 375px){
+    .first .card .card-container h2 {
+        font-size:40px;
+        margin-bottom:20%;
+        line-height:35px;
+    }
+
+    .first .demo-container .right-demo-container h4 {
+        margin-bottom: 19px;
+    }
+
+    .second .card .card-container h2 {
+        font-size: 40px;
+        margin-bottom:15%;
+        line-height:35px;
+    }
+
+    .second .demo-container .right-demo-container h4 {
+        margin-bottom: 19px;
+    }
+
+    .guy {
+        width:318px;
+    }
+
+    .third .card {
+        position: relative;
+        top:50px;
+        height:85vh;
+    }
+
+    .third .card .card-container img {
+        margin-top:150px;
+    }
+
+    .third .card .card-container h2 {
+        font-size:40px;
+        line-height:35px;
+        margin-bottom:15%;
+    }
+
+    .third .demo-container .left-demo-container p {
+        margin-top: -10px;
+    }
+
+    .third .demo-container .right-demo-container p {
+        margin-top: 5px;
+    }
+
+    .third .demo-container .left-demo-container .try {
+        margin-top:-145px;
+    }
+
+    .third .demo-container .right-demo-container .try {
+        margin-top:-140px;
+    }
+}

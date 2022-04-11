@@ -1,0 +1,31 @@
+@media all and (min-width:768px){
+    .first {
+        width:100vw;
+    }
+
+    .second {
+        width:100vw;
+    }
+
+    .third {
+        width: 100vw;
+    }
+
+    .card {
+        width:40vw;
+    }
+
+    /* Second Section */
+    .badge {
+        right: 215px;
+    }
+
+    .second .left-demo-container .try p {
+        margin-top:50px;
+    }
+
+    /* Third Section */
+    .guy {
+        width:306px;
+    }
+}
